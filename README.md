@@ -56,18 +56,16 @@ Indicador directo de rendimiento operacional que mide el alcance físico del con
 
 ## 📂 Estructura del Repositorio
 
-El repositorio se organiza bajo el estándar de proyectos de ciencia de datos, enfocado en el procesamiento de registros asignados y tracking de indicadores:
-
 ```text
-├── .gitignore               # Exclusión de entornos, cachés y datos locales
-├── README.md                # Descripción general y marco metodológico (este archivo)
-├── data/                    # Almacenamiento local de datos (No trackeado en Git)
-│   ├── raw/                 # Registros asignados de casos y reportes de campañas en bruto
-│   └── processed/           # Dataframes consolidados con los indicadores calculados
-├── src/                     # Código fuente modular
+├── .gitignore              
+├── README.md          
+├── data/                   
+│   ├── raw/                
+│   └── processed/          
+├── src/                     
 │   ├── __init__.py
-│   ├── indicators.py        # Scripts con las funciones matemáticas y lógica de cálculo
-|   ├── constants.py         # Variabes constanstes utilizadas en el procesamiento de datos
-│   └── class_assigner.py    # Módulo de asignación automatizada de las 5 clases
-└── notebooks/               # Jupyter Notebooks para análisis exploratorio y validación
+│   ├── indicators.py      
+|   ├── constants.py         
+│   └── class_assigner.py    
+└── notebooks/               
 ```
